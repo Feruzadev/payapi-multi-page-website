@@ -2,7 +2,7 @@
     .site-header__nav{
         display: none;
     }
-    .site-header-hero .btn{
+    .site-header-hero .buttun{
         display: none;
     }
     .site-menu__bar{
@@ -13,19 +13,209 @@
     }
 }
 @media(max-width:768px){
-    .site-hero__title {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .col-6 {
+        width: 100%;
+    }
+    .site-hero__title { 
+        margin: auto;
+        max-width: 573px;
+        width: 100%;    
+        text-align: center;   
         font-size: 48px;
         line-height: 56px;
+        letter-spacing: -0.369px;
+    }
+    .input-group {
+        margin: auto;
+    }
+    .site-hero__text {
+        text-align: center;
     }
     .hero-wrapper {
          flex-direction: column-reverse;
          gap: 50px;
-                
+                    
     }
     .wrapper {
         display: flex;
-        flex-direction: row-reverse !important;
+        row-gap: 40px;
+        flex-direction: column-reverse;
+        padding-top: 95px;
+    }
+    .company-image {
+        width: 80%;
+        padding-bottom:unset;
+    }
+    .partner-title {
+       text-align: center;
+    }
+    .partner-text {
+        margin: auto;
+        text-align: center;
+    }
+    .about-btn {
+        margin: auto;
+    }
+    .the-first__section {
+        flex-direction: column;
+        margin: auto;
+       
+    }
+    .implement-image {
+         width: auto;
+         padding-left: 0px;
+         padding-right: 0px;
+    
+    }
+    .how-use__desc {
+        text-align: center;
+        padding-bottom: 100px;
+    }
+   .how-use__text {
+    max-width: 573px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+   }    
+     .the-second__section {
+        flex-direction: column;
+    }
+    .how-use__title {
+        text-align: center;
+    }
+  
+    .service__card-body {
+        align-items: center;
         
     }
+    .service__card-text  {
+        max-width: 223px;
+        width: 100%;
+        margin: auto;
+        
+    }
+    .pricing-title {
+        text-align: center;
+        font-size: 48px;
+    }
+    .card-title {
+        font-size: 24px;
+    }
+    .card-text {
+        width: 223px;
+        text-align: center;
+    }
+    .main-title__course {
+        font-size: 48px;
+    }
+    .card-line {
+        width: 223px;
+        height: 1px;
+        margin-bottom: 20px; */
+      }
+      .ready-wrapper {
+        flex-direction: column;
+        row-gap: 40px;
+      }
+      .ready-to__start--title {
+
+      }
+
 
 }
+@media(max-width:576px){
+    .container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .the-second__section
+    .site-hero__title {
+        width: 327px;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 36px; 
+        letter-spacing: -0.246px;
+    }
+    .site-hero__text {
+        text-align: center;
+    }
+    .company-image {
+        padding-bottom: 45px;
+ 
+    }
+    .partner-title {
+        width: 100%;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 36px; 
+        letter-spacing: -0.246x;
+        padding-top: unset;
+      }
+      .partner-text {
+        width: unset;
+        text-align: center;
+      }
+      .about-btn {
+        margin: auto;
+      }
+      .col-6 {
+        width: 100%;
+    }
+    .implement-image {
+   
+       
+   
+   }
+
+
+
+
+
+
+
+    .pricing-title {
+       
+    }
+    .service {
+        padding-top: unset;
+    }
+ 
+    .card-text {
+        width: 155px;
+        text-align: center;
+    }
+    .main-title__course {
+        font-size: 38px;
+    }
+    .card-line {
+        width: 150px;
+        height: 1px;
+        margin-bottom: 20px; */
+      }
+      .footer-wrapper {
+        flex-direction: column;
+        row-gap: 39px;
+      }
+      .footer-content {
+        flex-direction: column;
+      }
+      .footer-list {
+        flex-direction: column;
+        
+      }
+    
+}
+@media(max-width:375px){
+    .ready-to__start--title {
+        font-size: 22px;
+        line-height: 36px;
+        letter-spacing: -0.246px;
+        text-align: center;
+    }
+}
+

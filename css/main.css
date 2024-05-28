@@ -180,7 +180,6 @@ body {
 .site-hero__title {
  color: var(--Juan-blue);
   font-size: 72px;
-  /* font-size: calc(72 + 12 * (100vw / 1440)); */
   font-weight: 400;
   line-height: 72px;
   letter-spacing: -0.554px;
@@ -255,7 +254,7 @@ body {
 .partner {
   background-color: var(--Mirage-blue);
   width: 100%;
-  height: 472px;
+  height: 100%;
 }
 .partner-title {
   color: var(--Link-Water-White);
@@ -279,8 +278,11 @@ body {
   padding-bottom: 32px;
 
 }
-.wraper {
+.wrapper{
+  display: flex;
   row-gap: 40px;
+  padding-bottom: 100px;
+ 
 }
 .btn{
   border-radius: 30px !important;
@@ -338,6 +340,8 @@ body {
   margin: 0 !important;
   padding: 0 !important;
 }
+
+
 .the-second__section--desc {
 }
 .how-use__title {
@@ -360,10 +364,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-.card-body {
+.service__card-body {
   padding-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.card-title {
+.service__card-title {
   padding-bottom: 10px;
   color: #36536B;
   font-family: "Public Sans";
@@ -372,7 +379,7 @@ body {
   line-height: 25px;
   letter-spacing: -0.138px;
 }
-.card-text {
+.service__card-text {
   color: #6C8294;
   text-align: center;
   font-family: "Public Sans";
@@ -390,6 +397,14 @@ body {
   padding-top: 90px;
   padding-bottom: 96px;
 }
+.ready-to__start--title {
+  color: #36536B;
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px; 
+  letter-spacing: -0.369px;
+  }
 /* SITE-MAIN */
 
 /* PRICING */
@@ -419,15 +434,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: start;
- text-align: start;
+  text-align: start;
 }
 .card-title {
-  color: #BA4270;
+  color: #36536B;
   font-family: "DM Serif Display";
   font-size: 32px;
   font-weight: 400;
   line-height: 40px; 
   letter-spacing: -0.246px;
+  text-align: center;
+  margin: auto;
 }
 .card-text {
   text-align: start;
@@ -436,6 +453,7 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 28px; 
+  text-align: center;
 }
 .main-title__course {
   color: #36536B;
@@ -471,6 +489,96 @@ body {
 /* PRICING */
 
 
+/* ABOUT */
+.about {
+}
+.container {
+}
+.about-wrapper {
+  padding-top: 82px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  margin-bottom: 100px;
+
+ 
+}
+.about-title {
+  width:730px;
+  color: #36536B;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 56px; 
+  letter-spacing: -0.431px;
+  
+}
+.about-dec {
+  display: flex;
+  gap: 10px;
+}
+.about-text__bold {
+  width: 255px;
+  color: #36536B;
+  font-family: "DM Serif Display";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px; 
+  letter-spacing: -0.246px;
+}
+.about-text {
+  width: 635px;
+  color: #6C8294;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px; 
+}
+.site-main__image {
+  max-width: 1440px;
+  width: 100%;
+}
+
+.site-main__image {
+  width: 100%;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  margin-top: 72px;
+  gap: 30px;
+}
+.site-main__card {
+
+
+
+}
+.site-main__card-line {
+  width: 350px;
+  height: 1px;
+  opacity: 0.25;
+  background: #36536B;
+}
+.site-main__text {
+  color: #36536B;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; 
+  opacity: 0.7;
+}
+.site-main__title {
+  color: #BA4270;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.431px;
+
+}
+
+/* ABOUT */
 
 
 
