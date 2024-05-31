@@ -123,8 +123,7 @@ body {
   padding-right: 24px;
 }
 /* SITE-HEADER */
-.site-header-hero {
-}
+
 .site-header {
   padding-top: 40px;
   display: flex;
@@ -137,8 +136,7 @@ body {
   /* padding-right: 64px; */
 
 }
-.site-header__logo {
-}
+
 .site-header__nav {
   width: 80%;
   display: flex;
@@ -153,9 +151,6 @@ body {
  column-gap: 40px;
  padding: 0 !important;
  margin: 0 !important;
-}
-.nav-item {
-
 }
 .nav-link {
   color: #36536B;
@@ -341,17 +336,6 @@ body {
   padding: 0 !important;
 }
 
-
-.the-second__section--desc {
-}
-.how-use__title {
-
-}
-.how-use__text {
-}
-.text {
-
-}
 /* how-use */
 .service {
   padding-top: 80px;
@@ -549,11 +533,7 @@ body {
   margin-top: 72px;
   gap: 30px;
 }
-.site-main__card {
 
-
-
-}
 .site-main__card-line {
   width: 350px;
   height: 1px;

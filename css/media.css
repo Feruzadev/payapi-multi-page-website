@@ -143,6 +143,47 @@
       .ready-to__start--title {
 
       }
+      /* ABOUT */
+      .about-title {
+        max-width: 573px;
+        width: 100%;
+        font-size: 48px;
+        text-align: center;
+        margin: auto;
+      }     
+      .col-1 {
+        display: none;
+      }
+      .site-main__text {
+        display: none;
+      }
+      .cards {
+        gap: 10px;
+      }
+      .site-main__card-line {
+        width: 223px;
+      }
+      .about-dec {
+        gap: 15px;
+      }
+      .about-text {
+       max-width: 456px;
+       width: 100%;
+      }
+      .about-text__bold {
+        width: 253px;
+      }
+      .col-11 {
+        width: unset;
+      }
+      .about-wrapper {
+        margin-bottom: unset;
+      }
+      .ready-wrapper {
+        padding-top: 72px;
+      }
+     
+      /* ABOUT */
     
 
 
