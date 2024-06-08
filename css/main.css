@@ -65,7 +65,7 @@
 } 
 .all-btn {
   display: block;
-  padding: 15px 26px;
+  padding: 15px 35px;
   border-radius: 24px;
   border: 1px solid #36536B;
   text-align: center;
@@ -125,17 +125,17 @@ body {
 /* SITE-HEADER */
 
 .site-header {
-  padding-top: 40px;
+  padding-top: 40px; 
+
+}
+.site-header__wraper{
   display: flex;
-  justify-content: center;
   align-items: center;
-  
+  justify-content: space-between;
+  max-width: 1158px;
+  width: 100%;
 }
 
-.site-header__wraper {
-  /* padding-right: 64px; */
-
-}
 
 .site-header__nav {
   width: 80%;
@@ -159,12 +159,7 @@ body {
   font-weight: 700;
   opacity: 0.7;
 }
-.site-header__wraper{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
+
 /* SITE-HEADER */
 
 /* SITE-HERO */
@@ -313,6 +308,8 @@ body {
   font-weight: 400;
   line-height: 28px; 
 }
+ .how-use--image {}
+ 
 .implement-image{
   width: 600px;
   height: 450px;
@@ -406,14 +403,7 @@ body {
   line-height: 56px;
   letter-spacing: -0.431px;
 }
-.site-main {
-}
-.service {
-}
-.card-group {
-}
-.card {
-}
+
 .card-body {
   display: flex;
   flex-direction: column;
@@ -484,7 +474,6 @@ body {
   flex-direction: column;
   row-gap: 50px;
   margin-bottom: 100px;
-
  
 }
 .about-title {
@@ -729,3 +718,24 @@ body {
 
 
 
+.form-demo-input{
+  padding: 15px 20px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  outline: none;
+  border: none;
+  font-family: "Public Sans";
+  font-weight: bold;
+}
+.form-wrapper{
+ border-radius: 30px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.btn33{
+  border: none;
+}
+.site-menu__bar{
+  display: none;
+}
